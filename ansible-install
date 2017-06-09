@@ -1,0 +1,11 @@
+- install git
+$ sudo apt-get install software-properties-common
+$ sudo apt-add-repository ppa:ansible/ansible
+$ sudo apt-get update
+$ sudo apt-get install ansible
+
+git clone https://github.com/mcgonagle/ansible_f5.git
+
+modify ansible_f5/hosts
+
+run ansible-vault edit password.yml to change password
